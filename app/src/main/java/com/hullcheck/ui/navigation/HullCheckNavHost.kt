@@ -48,7 +48,8 @@ fun HullCheckNavHost(navController: NavHostController = rememberNavController())
     ) {
         composable(Routes.PROJECTS) {
             BoxWithConstraints {
-                if (maxWidth >= 840.dp) {
+                // 700dp covers foldable inner displays (≈707dp) and tablets; phones stay single-pane.
+                if (maxWidth >= 700.dp) {
                     ExpandedHome(navController)
                 } else {
                     ProjectListScreen(
@@ -158,7 +159,7 @@ private const val RIGHT_PANE_EMPTY = "home_empty"
 private fun ExpandedHome(outerNav: NavHostController) {
     val rightNav = rememberNavController()
     Row(Modifier.fillMaxSize()) {
-        Box(Modifier.width(380.dp).fillMaxHeight()) {
+        Box(Modifier.width(360.dp).fillMaxHeight()) {
             ProjectListScreen(
                 onOpenProject = {
                     rightNav.navigate(Routes.projectDetail(it)) {
