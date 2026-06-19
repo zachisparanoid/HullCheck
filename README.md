@@ -77,6 +77,20 @@ com.hullcheck
 - **Atomic JSON import across two storage systems.** Photo bytes (Base64) are written to disk first, then all rows insert in a single Room transaction; a failure deletes the just-written files and rolls back, so a failed import leaves nothing behind. UUIDs are regenerated to avoid collisions, and missing photos are skipped and counted.
 - **Big touch targets over gestures.** Status setting uses always-visible 52dp OK/DEFECT/N-A buttons (better for gloves) with a haptic tick and animated color crossfade, rather than swipe gestures.
 
+## Additional capabilities (v1.1)
+
+Beyond the original spec, HullCheck adds:
+
+- **Safety-gear expiry tracking** — an optional expiry date per item with `EXPIRED` / `Expiring soon` badges on the checklist, defects view, and report (driven by `ChecklistItem.expiryStatus`).
+- **Structured measurements** — an optional value + unit per item (moisture %, hull thickness, engine hours…), surfaced on the report instead of buried in notes.
+- **GPS location capture** — one-tap survey coordinates via the platform `LocationManager` (no Play Services, fully offline); shown on the detail header and report.
+- **PDF letterhead + certification** — firm name, license number, logo, signature image, and disclaimer (in Settings) render a branded header and a signed certification block on the report.
+- **Checklist templates** — choose a template when creating a project, "Save as template" from any project, and manage saved templates (Settings → Checklist templates).
+- **Photo annotation** — freehand multi-colour drawing on a photo, composited (view→pixel mapped) and saved as a new photo.
+- **Foldable two-pane** — on screens ≥ 700dp (foldable inner displays, tablets, large landscape) the home shows project list + detail side-by-side via a nested NavHost; phones stay single-pane.
+
+**Production hardening:** Room schema exported and bumped to **v2 with a real `MIGRATION_1_2`** (verified on-device over existing data); a signed **R8/minified release build** (22 MB → 3.5 MB) with working ProGuard keep-rules; JVM unit tests for progress/expiry/measurement logic; and the project is under git.
+
 ## Definition-of-done coverage
 
 Project list (search / persisted sort / status filter, cover + progress + status + defect badges), full checklist instantiation (13 categories, 120 items), all five statuses + five conditions + four severities, camera + gallery photos (downscaled, EXIF-correct, captioned, zoomable, undo-deletable), autosaving notes, live progress rings, defect aggregation, professional paginated PDF, JSON round-trip, duplicate/archive/export/delete with confirms and file cleanup, DataStore settings (surveyor name, default survey type, theme, units, photo quality, dynamic color), custom categories/items (template items are N/A-only, never deletable), and process-death/rotation safety via `ViewModel`/`rememberSaveable`.
