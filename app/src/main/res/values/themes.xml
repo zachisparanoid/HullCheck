@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Pre-Compose shell theme. The activity enables edge-to-edge and draws its real
+      UI with Compose Material3, so this theme only governs the window background and
+      system bars shown for the brief moment before the first frame. Dark-first.
+    -->
+    <style name="Theme.HullCheck.Starting" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

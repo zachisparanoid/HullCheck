@@ -1,0 +1,29 @@
+# Built artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Gradle / build
+.gradle/
+build/
+app/build/
+captures/
+*.log
+
+# Local config (never commit secrets / machine paths)
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Keystores
+*.jks
+*.keystore
+
+# NDK
+.externalNativeBuild/
+.cxx/

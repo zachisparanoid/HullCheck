@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Legacy auto-backup rules (API 23–30). Photos can be large; back up the DB and
+     preferences but exclude regenerable export artifacts. -->
+<full-backup-content>
+    <include domain="database" path="." />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="photos/" />
+    <exclude domain="file" path="exports/" />
+</full-backup-content>

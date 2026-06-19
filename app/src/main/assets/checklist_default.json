@@ -1,0 +1,231 @@
+{
+  "templateId": "builtin_default_full_survey",
+  "name": "Default Full Survey",
+  "version": 1,
+  "categories": [
+    {
+      "name": "Documentation & Identification",
+      "iconKey": "documentation",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "HIN verification", "guidance": "Confirm the Hull Identification Number on the transom matches the documents; check for tampering, grinding, or overstamping." },
+        { "title": "Registration / title match", "guidance": "Verify state registration and title numbers and the owner name match the vessel and paperwork." },
+        { "title": "Builder's plate", "guidance": "Locate the manufacturer's plate; record builder, model, and build date." },
+        { "title": "Capacity / certification plate", "guidance": "Check the capacity plate (persons / weight) and any CE or NMMA certification." },
+        { "title": "USCG / state documentation", "guidance": "Review documentation or state papers; confirm hailing port and numbers are correctly displayed." },
+        { "title": "Prior survey & service records", "guidance": "Collect and review prior surveys, maintenance logs, and major repair invoices." },
+        { "title": "Ownership & lien check notes", "guidance": "Note the chain of ownership and any liens, encumbrances, or outstanding finance disclosed." },
+        { "title": "Insurance & compliance documents", "guidance": "Record current insurance, radio licence, and any flag-state compliance certificates." }
+      ]
+    },
+    {
+      "name": "Hull & Structure",
+      "iconKey": "hull",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Gelcoat condition & blisters", "guidance": "Inspect topsides and bottom for gelcoat crazing, blisters, and signs of osmosis below the waterline." },
+        { "title": "Keel-to-hull joint", "guidance": "Check the keel joint for cracks, weeping, fairing failure, and evidence of grounding." },
+        { "title": "Hull-to-deck joint", "guidance": "Inspect the hull/deck joint for separation, leaks, and fastener integrity." },
+        { "title": "Stress / structural cracks", "guidance": "Look for stress cracks at high-load areas, chainplates, and bulkhead tabbing." },
+        { "title": "Through-hulls & seacocks", "guidance": "Operate every seacock; check bonding, backing blocks, hose double-clamping, and corrosion." },
+        { "title": "Transom & swim platform", "guidance": "Assess the transom for soft spots and cracks, and secure mounting of the platform and ladder." },
+        { "title": "Rudder & bearings", "guidance": "Check the rudder for play, cracks, and water intrusion; move it stop to stop and feel the bearings." },
+        { "title": "Skeg / keel grounding damage", "guidance": "Inspect the skeg, keel, and running gear for impact, repairs, and fairing." },
+        { "title": "Bilge condition", "guidance": "Check the bilge for water, oil, debris, and integrity of limber holes." },
+        { "title": "Stringers & bulkheads", "guidance": "Sound stringers and bulkheads for delamination, rot, and secure tabbing." },
+        { "title": "Moisture meter readings", "guidance": "Record moisture-meter readings on deck and hull; note elevated or wet areas." },
+        { "title": "Anodes / cathodic protection", "guidance": "Check sacrificial anodes for wastage and electrical continuity to bonded metals." }
+      ]
+    },
+    {
+      "name": "Deck & Topsides",
+      "iconKey": "deck",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Non-skid wear", "guidance": "Assess non-skid for wear and traction in walking and working areas." },
+        { "title": "Stanchions, pulpit & pushpit", "guidance": "Check stanchions, bow pulpit, and stern rail for secure bases and bends." },
+        { "title": "Lifelines & gates", "guidance": "Inspect lifelines for fraying, corrosion, and proper tension; test gate latches." },
+        { "title": "Cleats, chocks & fairleads", "guidance": "Verify cleats and chocks are through-bolted with adequate backing." },
+        { "title": "Hatches & ports", "guidance": "Open and close all hatches and ports; check seals, dogs, and crazing of acrylic." },
+        { "title": "Deck hardware backing plates", "guidance": "Spot-check backing plates and bedding for leaks at high-load fittings." },
+        { "title": "Anchor windlass", "guidance": "Operate the windlass; check the gypsy, clutch, breaker, and chain stopper." },
+        { "title": "Bow roller & ground tackle", "guidance": "Inspect the bow roller, anchor, rode, and shackle mousing." },
+        { "title": "Toe rail & rub rail", "guidance": "Check toe rail and rub rail for damage and secure fastening." }
+      ]
+    },
+    {
+      "name": "Engine & Propulsion",
+      "iconKey": "engine",
+      "isEngineRelated": true,
+      "isSkippable": false,
+      "items": [
+        { "title": "Engine mounts — condition & security", "guidance": "Inspect mounts for cracked rubber, rust streaks, loose nuts, and sag." },
+        { "title": "Belts & pulleys", "guidance": "Check belt tension, glazing, and cracking, and pulley alignment." },
+        { "title": "Hoses & clamps", "guidance": "Inspect coolant, fuel, and exhaust hoses for softness and bulging, and confirm double clamping." },
+        { "title": "Fuel system & filters", "guidance": "Check primary and secondary fuel filters, service dates, and for leaks or weeping." },
+        { "title": "Cooling system / heat exchanger", "guidance": "Inspect coolant level, heat exchanger, and signs of overheating or salt tracks." },
+        { "title": "Raw water pump & impeller", "guidance": "Note impeller age; check the pump for weeping and the strainer for cleanliness." },
+        { "title": "Exhaust system / mixing elbow", "guidance": "Inspect the mixing elbow, riser, and exhaust hose for corrosion and leaks." },
+        { "title": "Oil level & condition", "guidance": "Check engine oil level and colour, and for emulsification or a fuel smell." },
+        { "title": "Coolant condition", "guidance": "Verify coolant strength and the absence of oil contamination." },
+        { "title": "Smoke on startup", "guidance": "Observe exhaust smoke colour at cold start and under load." },
+        { "title": "Throttle & shift cables", "guidance": "Operate throttle and shift through full range; check for binding and play." },
+        { "title": "Hour meter reading", "guidance": "Record engine hours and compare against maintenance records." },
+        { "title": "Engine alignment & coupling", "guidance": "Check shaft coupling alignment and for vibration at the cutless bearing." },
+        { "title": "Transmission condition", "guidance": "Check gear oil, shifting, and for leaks at the transmission and output seal." }
+      ]
+    },
+    {
+      "name": "Fuel System",
+      "iconKey": "fuel",
+      "isEngineRelated": true,
+      "isSkippable": false,
+      "items": [
+        { "title": "Tanks condition & mounting", "guidance": "Inspect tanks for corrosion, secure mounting, and labelling." },
+        { "title": "Fuel lines & connections", "guidance": "Check for compliant fuel hose, sound routing, and chafe protection." },
+        { "title": "Anti-siphon valve", "guidance": "Verify an anti-siphon device at the tank withdrawal fitting." },
+        { "title": "Fill & vent", "guidance": "Inspect fill, vent, and grounding; check for cross-threading and leaks." },
+        { "title": "Fuel / water separator", "guidance": "Check the separator bowl for water and debris, and the filter date." },
+        { "title": "Leaks & odor", "guidance": "Smell the bilge and lockers for fuel odour; trace any leaks." },
+        { "title": "Fuel gauge & shutoff", "guidance": "Test fuel gauge accuracy and the accessibility of the fuel shutoff." }
+      ]
+    },
+    {
+      "name": "Steering & Controls",
+      "iconKey": "steering",
+      "isEngineRelated": true,
+      "isSkippable": false,
+      "items": [
+        { "title": "Steering type & general function", "guidance": "Record the steering type (cable, hydraulic, rack) and check overall function." },
+        { "title": "Play / binding", "guidance": "Turn the helm lock to lock; note excessive play, binding, or noise." },
+        { "title": "Hydraulic fluid & leaks", "guidance": "Check the hydraulic reservoir level and the rams and lines for leaks." },
+        { "title": "Cables & sheaves", "guidance": "Inspect steering cables, conduit, and sheaves for wear and corrosion." },
+        { "title": "Autopilot", "guidance": "Test autopilot engagement, the drive unit, and the rudder reference." },
+        { "title": "Emergency tiller", "guidance": "Confirm the emergency tiller is aboard and fits the rudder post." },
+        { "title": "Trim tabs / power assist", "guidance": "Operate trim tabs and any power-assist; check the actuators." }
+      ]
+    },
+    {
+      "name": "Electrical System",
+      "iconKey": "electrical",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Batteries & condition", "guidance": "Record battery type, age, mounting, and terminals, and perform a load / voltage test." },
+        { "title": "Battery switches & isolation", "guidance": "Operate battery switches; verify labelling and secure mounting." },
+        { "title": "Wiring condition / ABYC", "guidance": "Inspect wiring for chafe, proper support, tinned conductors, and ABYC compliance." },
+        { "title": "Main panel & breakers", "guidance": "Check DC and AC panel labelling, breaker function, and signs of heat." },
+        { "title": "Shore power & galvanic isolator", "guidance": "Inspect the shore inlet, cord, polarity indicator, and galvanic isolator." },
+        { "title": "Charger / inverter", "guidance": "Test charger and inverter operation and mounting; check for alarms." },
+        { "title": "Bonding system", "guidance": "Verify bonding continuity to through-hulls and the engine." },
+        { "title": "Navigation lights", "guidance": "Test all navigation, anchor, and steaming lights for function and visibility." },
+        { "title": "DC outlets & USB", "guidance": "Test accessory outlets and USB charging points." },
+        { "title": "AC system & GFCI", "guidance": "Test GFCI outlets and AC grounding where fitted." },
+        { "title": "Alternator output", "guidance": "Check alternator charging output and belt; note the regulator type." }
+      ]
+    },
+    {
+      "name": "Plumbing & Sanitation",
+      "iconKey": "plumbing",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Fresh water system & pump", "guidance": "Test the pressure pump and accumulator, and check for leaks at fittings." },
+        { "title": "Hot water heater", "guidance": "Check water heater operation (shore and engine) and the relief valve." },
+        { "title": "Head / holding tank", "guidance": "Operate the head; inspect the holding tank and hoses, and for odour permeation." },
+        { "title": "Y-valve & overboard discharge", "guidance": "Verify the Y-valve, its securing means, and overboard discharge compliance." },
+        { "title": "Bilge pumps (auto & manual)", "guidance": "Test electric and manual bilge pumps and their float switches." },
+        { "title": "Float switches & high-water alarm", "guidance": "Confirm float switch operation and any high-water alarm." },
+        { "title": "Sea strainers", "guidance": "Inspect raw-water strainers for cleanliness and secure lids." },
+        { "title": "Sinks, drains & scuppers", "guidance": "Check sink drains, cockpit scuppers, and seacock backup." },
+        { "title": "Shower sump", "guidance": "Test the shower sump pump and screen." }
+      ]
+    },
+    {
+      "name": "Rigging & Sails",
+      "iconKey": "rigging",
+      "isEngineRelated": false,
+      "isSkippable": true,
+      "items": [
+        { "title": "Standing rigging & swages", "guidance": "Inspect wire, swages, and terminals for cracks, meathooks, and corrosion." },
+        { "title": "Chainplates", "guidance": "Check chainplates and deck seals for cracks, movement, and crevice corrosion." },
+        { "title": "Mast & spreaders", "guidance": "Inspect the mast, spreaders, and tangs; note corrosion and fastener condition." },
+        { "title": "Furling gear", "guidance": "Operate the headsail and mainsail furler; check the drum, foil, and bearings." },
+        { "title": "Running rigging", "guidance": "Assess halyards, sheets, and control lines for wear and UV damage." },
+        { "title": "Winches", "guidance": "Service-check winches for smooth operation and pawl function." },
+        { "title": "Boom & vang", "guidance": "Inspect the boom, gooseneck, and vang for cracks and play." },
+        { "title": "Sail condition", "guidance": "Review the sail inventory for UV damage, stitching, and batten cars." },
+        { "title": "Mast step & partners", "guidance": "Check the mast step (keel or deck) and partners for corrosion and compression." }
+      ]
+    },
+    {
+      "name": "Safety Equipment",
+      "iconKey": "safety",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Life jackets (PFDs)", "guidance": "Count and inspect PFDs for serviceability, size range, and stowage." },
+        { "title": "Fire extinguishers & dates", "guidance": "Check extinguisher type, charge, mounting, and inspection dates." },
+        { "title": "Flares & visual distress", "guidance": "Verify flare expiry dates and adequate day and night signals." },
+        { "title": "EPIRB / PLB", "guidance": "Check EPIRB registration, battery date, and hydrostatic release." },
+        { "title": "Horn / bell / sound signals", "guidance": "Test the horn and confirm a bell where required." },
+        { "title": "First aid kit", "guidance": "Inspect first aid kit contents and condition." },
+        { "title": "Bilge / high-water alarm", "guidance": "Confirm the audible bilge alarm functions." },
+        { "title": "CO detector", "guidance": "Test carbon monoxide detector(s) and battery." },
+        { "title": "Propane / LPG locker & solenoid", "guidance": "Check LPG locker drainage, solenoid, sniffer, and regulator." },
+        { "title": "Life raft & ditch bag", "guidance": "Note the life raft service date and ditch bag contents if fitted." },
+        { "title": "Throwable & overboard recovery", "guidance": "Confirm a throwable PFD and man-overboard recovery gear." }
+      ]
+    },
+    {
+      "name": "Galley & Interior",
+      "iconKey": "galley",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Stove / propane appliance", "guidance": "Test stove ignition, gimbal, and shutoff; check for gas leaks." },
+        { "title": "Refrigeration", "guidance": "Check refrigeration cooling, compressor, and insulation." },
+        { "title": "Upholstery & mildew", "guidance": "Inspect cushions and upholstery for wear, mildew, and odour." },
+        { "title": "Headliner & trim", "guidance": "Check the headliner for staining, sagging, and water tracks." },
+        { "title": "Cabin sole", "guidance": "Sound the sole for soft spots, delamination, and secure footing." },
+        { "title": "Ventilation & dorades", "guidance": "Assess ventilation, dorade boxes, and opening ports for airflow." },
+        { "title": "Freshwater leaks / staining", "guidance": "Trace any water staining to deck or plumbing leaks." },
+        { "title": "Doors, drawers & latches", "guidance": "Operate interior joinery, latches, and sea rails." }
+      ]
+    },
+    {
+      "name": "Electronics & Navigation",
+      "iconKey": "electronics",
+      "isEngineRelated": false,
+      "isSkippable": false,
+      "items": [
+        { "title": "Chartplotter / GPS", "guidance": "Power up the chartplotter; confirm GPS fix, charts, and mounting." },
+        { "title": "VHF & DSC", "guidance": "Test VHF transmit and receive, DSC, and MMSI programming." },
+        { "title": "Radar", "guidance": "Power the radar; check transmit, scanner mounting, and image." },
+        { "title": "Depth / speed / wind", "guidance": "Verify depth, speed, and wind instruments read plausibly." },
+        { "title": "AIS", "guidance": "Confirm AIS transmit and receive and target display." },
+        { "title": "Antennas & cabling", "guidance": "Inspect antennas, connectors, and coax for corrosion." },
+        { "title": "Compass & heading sensor", "guidance": "Check the compass deviation card and the heading sensor." }
+      ]
+    },
+    {
+      "name": "Trailer",
+      "iconKey": "trailer",
+      "isEngineRelated": false,
+      "isSkippable": true,
+      "items": [
+        { "title": "Frame & welds", "guidance": "Inspect the trailer frame and welds for rust-through and cracks." },
+        { "title": "Tires & spare", "guidance": "Check tire age, tread, and pressure, and the presence of a spare." },
+        { "title": "Bearings & hubs", "guidance": "Spin hubs for bearing roughness; check for grease and heat." },
+        { "title": "Lights & wiring", "guidance": "Test running, brake, and turn signals; inspect the wiring." },
+        { "title": "Brakes", "guidance": "Check surge or electric brakes, the actuator, and the breakaway." },
+        { "title": "Winch & strap", "guidance": "Inspect the winch, strap or cable, and safety chain." },
+        { "title": "Coupler & safety chains", "guidance": "Verify coupler fit and lock, and crossed safety chains." },
+        { "title": "Bunks / rollers & supports", "guidance": "Check bunks, rollers, and keel support condition." }
+      ]
+    }
+  ]
+}
