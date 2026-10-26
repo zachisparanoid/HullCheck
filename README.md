@@ -97,4 +97,6 @@ Project list (search / persisted sort / status filter, cover + progress + status
 
 ## License / assets
 
+MIT — see [LICENSE](LICENSE).
+
 Inter is licensed under the SIL Open Font License (bundled in `app/src/main/res/font/`).
